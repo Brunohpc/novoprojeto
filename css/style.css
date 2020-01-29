@@ -1,0 +1,49 @@
+.navbar {
+   background-color:black;
+  
+   
+   
+     color:rgb(255, 255, 255);
+     font-family: 'Heineken';
+     src: url('/css/webfont/Heineken.eot?#iefix') format('embedded-opentype'),
+     url('/css/webfont/Heineken.woff') format('woff'), 
+     url('/css/webfont/Heineken.ttf') format('truetype'),
+     url('/css/webfont/Heineken.svg#Heineken') format('svg'); 
+     font-size: 30px; font-style: normal; 
+
+      
+    }
+   
+
+
+.nav-link{
+  color:rgb(255, 255, 255);
+}
+.navlinkblack{
+  color: black;
+}
+.img_menu{
+
+border-radius: 10px;}
+
+.img-responsive {
+	max-width: 300%; 
+	height: auto; 
+	display:block;
+}
+
+.margin{
+  padding-top: 40px;
+  padding-bottom:  30px;
+  margin-right:30px ;
+}
+.dicascolor{
+  background-color:black;
+}
+
+.btm{
+  
+  padding-bottom:  8px;
+}
+
+
