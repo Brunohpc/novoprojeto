@@ -1,0 +1,33 @@
+@media (max-width: 767.98px) { 
+
+
+    #UAN{
+        height: 22vh;
+        background-image: url(../bootstrap/bootst/imgs/homemobile.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        /* width: 100vw;
+        height: 100vh; */
+    }
+
+    .UAN{
+        height: 10vh;
+        background-color: transparent;
+        position: relative;
+        top: 79%;
+    }
+
+    #QUEMSOU{
+        height: 180vh;
+    }
+
+    .footer-desktop{
+        display: none;
+    }
+
+    .footer-mobile{
+        display: block;
+        height: 70vh;
+    }
+
+}
