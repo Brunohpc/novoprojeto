@@ -1,19 +1,11 @@
-.navbar {
-   background-color:black;
-  
-   
-   
-     color:rgb(255, 255, 255);
-     font-family: 'Heineken';
-     src: url('/css/webfont/Heineken.eot?#iefix') format('embedded-opentype'),
-     url('/css/webfont/Heineken.woff') format('woff'), 
-     url('/css/webfont/Heineken.ttf') format('truetype'),
-     url('/css/webfont/Heineken.svg#Heineken') format('svg'); 
-     font-size: 30px; font-style: normal; 
-
-      
-    }
-   
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Montserrat & display = swap');
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
 
 .nav-link{
@@ -22,15 +14,7 @@
 .navlinkblack{
   color: black;
 }
-.img_menu{
 
-border-radius: 10px;}
-
-.img-responsive {
-	max-width: 300%; 
-	height: auto; 
-	display:block;
-}
 
 .margin{
   padding-top: 40px;
@@ -46,4 +30,167 @@ border-radius: 10px;}
   padding-bottom:  8px;
 }
 
+.espaco{
+  display: flex !important;
+  gap: 5em;
 
+}
+
+.nav-item{
+  padding: 0 2rem;
+}
+
+#UAN{
+  background-image: url(../imgs/home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100vw;
+  height: 100vh;
+}
+
+.UAN{
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+}
+
+/* .carousel-item h5{
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+#QUEMSOU{
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel-control-next-icon{
+  overflow: hidden;
+}
+
+.carousel-control-prev-icon{
+  overflow: hidden;
+}
+
+.carousel-control-next{
+  background: transparent;
+  border: 0px;
+}
+
+
+.positionBotaoLeft{
+  background-color: transparent;
+  border: hidden;  
+  position: absolute;
+  left: 20%;
+  top: 40%;
+
+}
+
+.positionBotaoRight{
+   position: absolute;
+   right: 20%;
+   top: 40%;
+} */
+
+#QUEMSOU{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.cordica{
+  background-color: rgba(255, 192, 203, 0.315);
+}
+
+.cordica a{
+  color: black;
+}
+
+#DICAS ul li a{
+  display: inline-block;
+}
+
+.align{
+  text-align: center;
+}
+
+.card{
+  background-color: rgba(255, 192, 203, 0.308)!important;
+}
+
+.card h3{
+  font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    overflow: hidden;
+}
+
+.card a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.closebotao{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.closebotao button{
+  background-color: transparent;
+  border: hidden;
+  width: 50px;
+}
+
+#ola{
+  display: block;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10%;
+  box-shadow: 10px 5px 5px 0px; 
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.466);
+  position: fixed;
+  right: 0;
+  top: 10%;
+  z-index: 1;
+}
+
+.footer-desktop p{
+  text-align: center;
+}
+.footer-desktop ul{
+  display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.footer-desktop ul li a{
+  color: black;
+ 
+}
+
+.footer-desktop ul li a:hover{
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid red ;
+
+}
+
+.footer-desktop ul li:active{
+  background-color: pink;
+}
+
+.footer-desktop ul li:nth-child(3){
+  width: 10%;
+}
+
+.footer-mobile{
+  display: none;
+}
