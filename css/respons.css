@@ -2,32 +2,55 @@
 
 
     #UAN{
-        height: 22vh;
-        background-image: url(../bootstrap/bootst/imgs/homemobile.png);
-        background-repeat: no-repeat;
-        background-size:contain;
+        overflow: hidden;   
+        height: 35vh;
+        background-image: url(../imgs/homemobile.png);
+        background-repeat: no-repeat;   
         /* width: 100vw;
         height: 100vh; */
     }
 
     .UAN{
-        height: 10vh;
+        height: 5vh;
         background-color: transparent;
         position: relative;
         top: 79%;
     }
 
     #QUEMSOU{
-        height: 180vh;
+        height: 100%;
     }
 
+    .espaco{
+        gap: 2em;
+    }
+    
     .footer-desktop{
         display: none;
     }
 
     .footer-mobile{
-        display: block;
-        height: 70vh;
+        background-color: #103657;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 29vh;
+    }
+
+    .footer-mobile ul li a {
+        text-decoration:none;
+        color: white;
+        
+    }
+    .footer-mobile p{
+        overflow: hidden;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 1.35em;
+    }
+
+    .footer-mobile ul{
+        overflow: hidden;
     }
 
 }
